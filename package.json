@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "bananaoatmeal",
+  "version": "1.0.0",
+  "description": "Guided Project 2",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armani-8/bananaoatmeal.git"
+  },
+  "author": "Val",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armani-8/bananaoatmeal/issues"
+  },
+  "homepage": "https://github.com/armani-8/bananaoatmeal#readme"
 }
