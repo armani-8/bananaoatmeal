@@ -1,3 +1,118 @@
+C:\Users\wasadmin>mongoimport --uri mongodb://localhost:27017/swapi --collection films --drop --file C:\Users\wasadmin\Desktop\project\bananaoatmeal\json-data\films.json --jsonArray
+2023-07-03T16:37:46.655-0400    connected to: mongodb://localhost:27017/swapi
+2023-07-03T16:37:46.655-0400    dropping: swapi.films
+2023-07-03T16:37:46.679-0400    6 document(s) imported successfully. 0 document(s) failed to import.
 
-Hi val
-how are you?
+C:\Users\wasadmin>mongoimport --uri mongodb://localhost:27017/swapi --collection planets --drop --file C:\Users\wasadmin\Desktop\project\bananaoatmeal\json-data\planets.json --jsonArray
+2023-07-03T16:38:22.336-0400    connected to: mongodb://localhost:27017/swapi
+2023-07-03T16:38:22.337-0400    dropping: swapi.planets
+2023-07-03T16:38:22.356-0400    60 document(s) imported successfully. 0 document(s) failed to import.
+
+C:\Users\wasadmin>mongoimport --uri mongodb://localhost:27017/swapi --collection films_planets --drop --file C:\Users\wasadmin\Desktop\project\bananaoatmeal\json-data\films_planets.json --jsonArray
+2023-07-03T16:41:07.053-0400    connected to: mongodb://localhost:27017/swapi
+2023-07-03T16:41:07.053-0400    dropping: swapi.films_planets
+2023-07-03T16:41:07.073-0400    33 document(s) imported successfully. 0 document(s) failed to import.
+
+C:\Users\wasadmin>mongoimport --uri mongodb://localhost:27017/swapi --collection films_characters --drop --file C:\Users\wasadmin\Desktop\project\bananaoatmeal\json-data\films_characters.json --jsonArray
+2023-07-03T16:41:31.441-0400    connected to: mongodb://localhost:27017/swapi
+2023-07-03T16:41:31.442-0400    dropping: swapi.films_characters
+2023-07-03T16:41:31.468-0400    162 document(s) imported successfully. 0 document(s) failed to import.
+
+C:\Users\wasadmin>mongoimport --uri mongodb://localhost:27017/swapi --collection characters --drop --file C:\Users\wasadmin\Desktop\project\bananaoatmeal\json-data\characters.json --jsonArray
+2023-07-03T16:42:58.707-0400    connected to: mongodb://localhost:27017/swapi
+2023-07-03T16:42:58.708-0400    dropping: swapi.characters
+2023-07-03T16:42:58.730-0400    82 document(s) imported successfully. 0 document(s) failed to import.
+
+C:\Users\wasadmin>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

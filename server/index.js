@@ -84,10 +84,11 @@ app.get("/api/films", (req, res) => {
   // });
 
   app.get("/api/planets/:id", (req, res) => {
-    dao.findPlanet(req.params.id, (err, planet) => {
+    const planet_id = parseInt(req.params.id);
+    dao.findPlanet(planet_id, (err, planet) => {
       if (planet !== undefined) {
         //We have planet
-        console.log("index.js planet: " + req.params.id );
+        console.log("index.js planet: " + planet_id );
         res.send(planet);
       } else {
         res.statusCode = 404;
