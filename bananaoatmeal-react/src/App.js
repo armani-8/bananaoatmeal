@@ -1,22 +1,13 @@
 import React, {useEffect, useState } from 'react';
 import { BrowserRouter as Router, Link, Route}  from 'react-router-dom';
 
-import Character from './Character';
+import Character_List from './Character_List';
 import Film from './Film'
 import Planet from './Planet'
 
 import './App.css';
 
 function App() {
-
-  // Characters
-  const [characters, setCharacters] = useState([]);
-  useEffect(() =>{
-    fetch('/api/characters')
-      .then((response) => response.json())
-      .then((data) => setCharacters(data))
-      .catch((error) => console.error(error));
-  }, [] );
 
   // Films
   const [films, setFilms] = useState([]);
@@ -67,9 +58,9 @@ function App() {
           ))}
         </u1>
 
-        <Route path = "/character/:id" component ={Character} />
-        <Route path = "/film/:id" component ={Film} />
-        <Route path = "/planet/:id" component ={Planet} />
+        <Route path = "/" element ={<Character_List />}></Route>
+        <Route path = "/film" component ={Film} />
+        <Route path = "/planet" component ={Planet} />
 
       </div>
     </Router>
